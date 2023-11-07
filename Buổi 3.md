@@ -22,8 +22,10 @@ Tất cả các biến thuộc kiểu dữ liệu tham chiếu đều được l
 ```Java
  int a = 10; 
  ```
-> Giải thích: int a là cấp phát một ô nhớ 4 byte (kiểu int có độ dài 4 byte) trên vùng nhớ stack. 
+> Giải thích: int a là cấp phát một ô nhớ 4 byte (kiểu int có độ dài 4 byte) trên vùng nhớ stack.
+> 
 > Ô nhớ gồm có Value và địa chỉ.
+> 
 > A = 10 gán value cho ô nhớ là 10.
 - **Kiểu dữ liệu tham chiếu** 
 Những biến thuộc kiểu dữ liệu tham chiếu (hay biến tham chiếu) sẽ được lưu tại vùng nhớ stack và đối tượng sinh ra (sau toán tử new) sẽ được lưu tại vùng nhớ heap. Giá trị của biến tham chiếu chính là địa chỉ của đối tượng được sinh ra đó. (Biến được lưu tại vùng nhớ stack, giá trị là địa chỉ của một đối tượng được lưu tại vùng nhớ heap).
@@ -317,4 +319,5 @@ public class Operation1 {
 ```
 Output:
 >Trước khi thay đổi: 50
+>
 >Sau khi thay đổi: 50
