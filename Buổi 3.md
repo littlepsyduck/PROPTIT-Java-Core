@@ -32,8 +32,11 @@ Những biến thuộc kiểu dữ liệu tham chiếu (hay biến tham chiếu)
 String a = newString(“Java”);
 ```
 > Đầu tiên là String a: Cấp phát một ô nhớ trên vùng nhớ stack, ô nhớ này chính là biến tham chiếu a.
+> 
 > newString(): Cấp phát một ô nhớ trên vùng nhớ heap, ô nhớ này là một đối tượng kiểu String, việc cấp ô nhớ này do toán tử new thực hiện.
+> 
 > String(“Java”): Gán giá trị “Java” cho ô nhớ trên vùng nhớ heap.
+> 
 > a = new String(“Java”): Gán địa chỉ của đối tượng trên vùng nhớ heap cho value của ô nhớ trên vùng nhớ stack (biến tham chiếu a).
 
 ### Class Object
