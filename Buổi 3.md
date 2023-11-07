@@ -1,9 +1,9 @@
-#[JAVA] - BUỔI 3
+# [JAVA] - BUỔI 3
 
-#CÁCH JAVA LƯU TRỮ DỮ LIỆU
+# CÁCH JAVA LƯU TRỮ DỮ LIỆU
 
-##1. Cách Java lưu trữ dữ liệu
-###Các vùng lưu trữ dữ liệu
+## 1. Cách Java lưu trữ dữ liệu
+### Các vùng lưu trữ dữ liệu
 - Khi một chương trình Java được thực thi, nó sẽ yêu cầu hệ điều hành cấp phát một không gian trên bộ nhớ để lưu trữ toàn bộ dữ liệu và thông tin của nó.
 - Sau đó, nó sẽ chia vùng không gian đó thành 4 vùng nhớ (memory segment) để lưu trữ.
 
@@ -16,7 +16,7 @@
 - Với vùng nhớ Code và Data, khi chương trình thực thi sẽ cấp phát một không gian có kích thước không đổi.
 - Còn đối với vùng nhớ Stack và Heap, kích thước của nó sẽ thay đổi (hoặc mở rộng khi tạo thêm biến hoặc đối tượng, hoặc thu hẹp khi một biến hoặc đối tượng được giải phóng) và nếu cần mở rộng thêm, nó sẽ lấy không gian từ Free memory.
 
-###Cách lưu dữ liệu
+### Cách lưu dữ liệu
 - **Kiểu dữ liệu nguyên thủy:** 
 Tất cả các biến thuộc kiểu dữ liệu tham chiếu đều được lưu trên vùng nhớ stack.
 ```Java
@@ -35,7 +35,7 @@ newString(): Cấp phát một ô nhớ trên vùng nhớ heap, ô nhớ này l�
 String(“Java”): Gán giá trị “Java” cho ô nhớ trên vùng nhớ heap.
 a = new String(“Java”): Gán địa chỉ của đối tượng trên vùng nhớ heap cho value của ô nhớ trên vùng nhớ stack (biến tham chiếu a).
 
-###Class Object
+### Class Object
 - Xuât hiện trong java.lang package. Mọi lớp trong Java đều có nguồn gốc trực tiếp hoặc gián tiếp từ Class Object. Do đó, Class Object đóng vai trò là gốc của hệ thống phân cấp kế thừa trong bất kỳ Chương trình Java nào. 
 - Các phương thức của lớp object
 
@@ -58,7 +58,7 @@ public boolean equals(Object obj)
 public String toString()
 ```
 >Trả về chuỗi ký tự đại diện của đối tượng hiện tại.
-###Wrapper, boxing, unboxing
+### Wrapper, boxing, unboxing
 - Lớp Wrapper trong java cung cấp cơ chế để chuyển đổi kiểu dữ liệu nguyên thủy thành kiểu đối tượng và từ đối tượng thành kiểu dữ liệu nguyên thủy.
 - Việc chuyển đổi một kiểu nguyên thủy sang kiểu Wrapper của nó người ta gọi là Boxing (đóng hộp).
 - Có thể thực hiện việc boxing thông qua các phương thức khởi tạo của các lớp Wrapper:
@@ -129,8 +129,8 @@ char ch2 = ch; // Unboxing
 Boolean b = true;
 boolean b2 = b; // Unboxing
 ```
-##2. Các phương thức khởi tạo trong Java
-###Hàm khởi tạo (constructor):
+## 2. Các phương thức khởi tạo trong Java
+### Hàm khởi tạo (constructor):
 - Hàm khởi tạo (constructor) trong Java là một hàm có tên giống với tên lớp. Hàm này được gọi khi khởi tạo đối tượng. Hàm khởi tạo không có kiểu trả về. 
 ```java
 public class Circle {  
@@ -166,7 +166,7 @@ public class Person {
     }
 }
 ```
-###Constructor overloading: 
+### Constructor overloading: 
 - Constructor overloading trong Java là kỹ thuật cho phép chúng ta tạo nhiều hơn một constructor trong cùng một lớp, nhưng mỗi constructor có thể có các tham số khác nhau. Khi tạo đối tượng của lớp đó, chúng ta có thể sử dụng bất kỳ constructor nào phù hợp với nhu cầu của chương trình.
 ```java
 public class Student {    
@@ -194,7 +194,7 @@ public class Student {
     // …
 }
 ```
-###Copy Constructor:
+### Copy Constructor:
 - Copy constructor trong Java là một constructor đặc biệt được sử dụng để tạo ra một đối tượng mới là bản sao của một đối tượng đã tồn tại. Copy constructor thường được định nghĩa bằng cách sử dụng từ khóa “this” để trỏ đến đối tượng mới được tạo ra và sử dụng từ khóa “other” để trỏ đến đối tượng cần sao chép.
 ```java
 public class Car {
@@ -242,8 +242,8 @@ public class Main {
 ```
 Output:
 >Car 1: BMW, 2021
-Car 2: Mercedes, 2022
-###Constructor chaining:
+>Car 2: Mercedes, 2022
+### Constructor chaining:
 - Trong Java, một lớp có thể có nhiều hơn một constructor. Khi một đối tượng được khởi tạo, một trong các constructor sẽ được gọi để khởi tạo đối tượng đó. Constructor chaining là cơ chế cho phép gọi một constructor khác trong cùng lớp hoặc lớp cha của nó, thay vì viết lại các đoạn mã khởi tạo lại thuộc tính của lớp.
 - Constructor chaining gồm 2 loại:
 
@@ -292,9 +292,9 @@ public class Dog extends Animal {
 ```
 >Trong ví dụ, Constructor của lớp con Dog gọi constructor của lớp cha Animal bằng từ khóa “super”. Constructor của lớp cha sẽ được thực thi trước constructor của lớp con để khởi tạo thuộc tính “name” của lớp cha, sau đó constructor của lớp con sẽ được thực thi để khởi tạo thuộc tính “breed” của lớp con.
 
-##3. Garbage Collector
+## 3. Garbage Collector
 Garbage Collectors được định nghĩa như là một quá trình tự động thực thi nhiệm vụ quản lý bộ nhớ. Code Java được dịch sang bytecode rồi chạy trên máy ảo Java hay viết tắt là JVM. Trong quá trình chạy chương trình, các đối tượng được tạo ở vùng nhớ heap, một phần bộ nhớ dành cho chương trình. Sau cùng, sẽ có một vài đối tượng mà chương trình không cần dùng đến. Các đối tượng này sẽ được garbage collector truy tìm và xóa bỏ để thu hồi lại dung lượng bộ nhớ.
-##4. Pass by value
+## 4. Pass by value
 - Nếu chúng ta gọi 1 phương thức và truyền giá trị cho một giá trị cho phương thức đó được gọi là truyền giá trị (Pass by value).
 - Việc thay đổi giá trị chỉ có hiệu lực trong phương thức được gọi, không có hiệu lực bên ngoài phương thức.
 ```Java
@@ -313,4 +313,4 @@ public class Operation1 {
 ```
 Output:
 >Trước khi thay đổi: 50
-Sau khi thay đổi: 50
+>Sau khi thay đổi: 50
