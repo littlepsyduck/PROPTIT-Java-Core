@@ -22,9 +22,9 @@ Tất cả các biến thuộc kiểu dữ liệu tham chiếu đều được l
 ```Java
  int a = 10; 
  ```
->Giải thích: int a là cấp phát một ô nhớ 4 byte (kiểu int có độ dài 4 byte) trên vùng nhớ stack. 
->Ô nhớ gồm có Value và địa chỉ.
->A = 10 gán value cho ô nhớ là 10.
+> Giải thích: int a là cấp phát một ô nhớ 4 byte (kiểu int có độ dài 4 byte) trên vùng nhớ stack. 
+> Ô nhớ gồm có Value và địa chỉ.
+> A = 10 gán value cho ô nhớ là 10.
 - **Kiểu dữ liệu tham chiếu** 
 Những biến thuộc kiểu dữ liệu tham chiếu (hay biến tham chiếu) sẽ được lưu tại vùng nhớ stack và đối tượng sinh ra (sau toán tử new) sẽ được lưu tại vùng nhớ heap. Giá trị của biến tham chiếu chính là địa chỉ của đối tượng được sinh ra đó. (Biến được lưu tại vùng nhớ stack, giá trị là địa chỉ của một đối tượng được lưu tại vùng nhớ heap).
 
@@ -32,9 +32,9 @@ Những biến thuộc kiểu dữ liệu tham chiếu (hay biến tham chiếu)
 String a = newString(“Java”);
 ```
 > Đầu tiên là String a: Cấp phát một ô nhớ trên vùng nhớ stack, ô nhớ này chính là biến tham chiếu a.
->newString(): Cấp phát một ô nhớ trên vùng nhớ heap, ô nhớ này là một đối tượng kiểu String, việc cấp ô nhớ này do toán tử new thực hiện.
->String(“Java”): Gán giá trị “Java” cho ô nhớ trên vùng nhớ heap.
->a = new String(“Java”): Gán địa chỉ của đối tượng trên vùng nhớ heap cho value của ô nhớ trên vùng nhớ stack (biến tham chiếu a).
+> newString(): Cấp phát một ô nhớ trên vùng nhớ heap, ô nhớ này là một đối tượng kiểu String, việc cấp ô nhớ này do toán tử new thực hiện.
+> String(“Java”): Gán giá trị “Java” cho ô nhớ trên vùng nhớ heap.
+> a = new String(“Java”): Gán địa chỉ của đối tượng trên vùng nhớ heap cho value của ô nhớ trên vùng nhớ stack (biến tham chiếu a).
 
 ### Class Object
 - Xuât hiện trong java.lang package. Mọi lớp trong Java đều có nguồn gốc trực tiếp hoặc gián tiếp từ Class Object. Do đó, Class Object đóng vai trò là gốc của hệ thống phân cấp kế thừa trong bất kỳ Chương trình Java nào. 
