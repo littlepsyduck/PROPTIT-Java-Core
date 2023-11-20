@@ -121,7 +121,7 @@ Loại thuộc tính được hiển thị sau dấu hai chấm.
 Kiểu trả về của một phương thức được hiển thị sau dấu hai chấm ở cuối chữ ký phương thức.
 Kiểu trả về của các tham số phương thức được hiển thị sau dấu hai chấm theo sau tên tham số.
 
-![enter image description here](https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/02-simple-class.png)
+  ![enter image description here](https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/02-simple-class.png)
 ##### Access Modifier trong Class Diagram
 - Private ( – )
 - Public ( + )
@@ -129,7 +129,9 @@ Kiểu trả về của các tham số phương thức được hiển thị sau
 - Package/ Default
 ##### Class Relationships
 - Một lớp có thể tham gia vào một hoặc nhiều mối quan hệ với các lớp khác.
-![Class Relationships](https://images.viblo.asia/c869cd68-1172-4a51-8257-81c732537bae.PNG)
+
+  ![Class Relationships](https://images.viblo.asia/c869cd68-1172-4a51-8257-81c732537bae.PNG)
+
 - Inheritance: 1 class kế thừa từ 1 class khác.
 - Association: 2 class có liên hệ với nhau nhưng không chỉ rõ mối liên hệ.
 - Composition: Đối tượng tạo từ class A mất thì đối tượng tạo từ class B sẽ mất.
