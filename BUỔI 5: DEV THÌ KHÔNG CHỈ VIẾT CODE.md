@@ -120,6 +120,7 @@ Loại thuộc tính được hiển thị sau dấu hai chấm.
   - Class Operations (Methods): Các hoạt động được hiển thị trong phân vùng thứ ba. Chúng là những dịch vụ mà lớp cung cấp.
 Kiểu trả về của một phương thức được hiển thị sau dấu hai chấm ở cuối chữ ký phương thức.
 Kiểu trả về của các tham số phương thức được hiển thị sau dấu hai chấm theo sau tên tham số.
+
 ![enter image description here](https://cdn-images.visual-paradigm.com/guide/uml/what-is-class-diagram/02-simple-class.png)
 ##### Access Modifier trong Class Diagram
 - Private ( – )
