@@ -151,31 +151,40 @@ Kiểu trả về của các tham số phương thức được hiển thị sau
 
 - Thành phần:
   - Start
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25205846/image001.png?resize=28%2C27&ssl=1)
     - Khởi tạo một hoạt động.
     - Một Activity Diagram có thể có nhiều trạng thái Start.   
   - Transition
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25205947/image002.png?resize=186%2C16&ssl=1)
     - Mô tả sự chuyển đổi trạng thái của các hoạt động.
   - Activity
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25205956/image003.png?resize=95%2C37&ssl=1)
     - Mô tả hành vi của đối tượng trong quy trình.
   - Decision
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210009/image004.png?resize=36%2C37&ssl=1)
     - Đây là kí hiệu biểu thị nút điều kiện chuyển hướng. Tùy theo trường hợp đúng hay sai của kết quả mà có hướng di chuyển tiếp theo tương ứng.
     - Decision bao gồm hai loại sau: Branch và Merge
   - Branch
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210023/image005.png?resize=207%2C128&ssl=1)
   - Merge
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210036/image006.png?resize=172%2C119&ssl=1)
   - Synchronization bar
     - Khi có các trường hợp cần hội tụ đủ nhiều luồng điều khiển một lúc để gộp thành một luồng xử lí thì cần dùng JOIN.
     - Khi cần phải tách một luồng điều khiển ra hai hoặc nhiều luồng khác biệt nhau thì cần dùng FORK. Mỗi luồng của FORK hoàn toàn không lệ thuộc nhau.
   - Join
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210134/image008-2.png?resize=159%2C82&ssl=1)
   - Fork
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210142/image009.png?resize=159%2C78&ssl=1)
   - End
+    
   ![](https://i0.wp.com/s3.ap-southeast-1.amazonaws.com/techover.storage/wp-content/uploads/2021/08/25210153/image010.png?resize=34%2C29&ssl=1)
     - Mô tả trạng thái kết thúc quy trình.
     - Một Activity Diagram có thể có một hoặc nhiều trạng thái kết thúc.
