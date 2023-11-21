@@ -143,6 +143,7 @@ Kiểu trả về của các tham số phương thức được hiển thị sau
   - 0…* : 0 hoặc nhiều
   - 1…* : 1 hoặc nhiều
   - m…n: có tối thiểu là m và tối đa là n
+  
  ![](https://images.viblo.asia/91cafd9c-0266-4817-90f8-428fed42a708.PNG)
 
 [Reference Material](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-class-diagram/)
