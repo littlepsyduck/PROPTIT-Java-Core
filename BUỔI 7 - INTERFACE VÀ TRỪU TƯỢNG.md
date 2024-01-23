@@ -121,7 +121,7 @@ public interface Drawable {
   - Tính trừu tượng cho phép các lập trình viên loại bỏ tính chất phức tạp của đối tượng bằng cách chỉ đưa ra các thuộc tính và phương thức cần thiết của đối tượng trong lập trình, cải thiện khả năng bảo trì của hệ thống.
   - Tính trừu tượng giúp chúng ta tập trung vào những cốt lõi cần thiết của đối tượng thay vì quan tâm đến cách nó thực hiện.
   - Tính trừu tượng cung cấp nhiều tính năng mở rộng khi sử dụng kết hợp với tính đa hình và kế thừa trong lập trình hướng đối tượng.
-- Java trừu tượng hóa thông qua các lớp trừu tượng (Abstract class) và các giao diện (Interface). Trong bài này, tôi sẽ hướng dẫn các bạn tìm hiểu về lớp trừu tượng và phương thức trừu tượng, còn Interface tôi sẽ giới thiệu trong các bài sau.
+- Java trừu tượng hóa thông qua các lớp trừu tượng (Abstract class) và các giao diện (Interface). 
 ## IV. Khi nào dùng interface, khi nào dùng abstract class
 
 - Sử dụng Abstract class khi chúng ta chỉ có thể hoàn thành một vài chức năng (method/ function) chuẩn của hệ thống, một vài chức năng còn lại các lớp extends phải hoàn thành. Những tính năng đã hoàn thành này vẫn sử dụng như bình thường, đây là những tính năng chung.
