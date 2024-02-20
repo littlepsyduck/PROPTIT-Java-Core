@@ -37,16 +37,19 @@ try{
 - Tham số trong khối catch là một Exception, trong đó tùy thuộc vào lỗi có thể xảy ra của chương trình mà người dùng sẽ sử dụng Exception cho phù hợp. Cụ thể trong đoạn code trên ta thấy chương trình sẽ gặp ArithmeticException khi nhập số 0.
   
 ![](image4buoi8.png)
+
 ![](image5buoi8.png)
 - Khi sử dụng khối lệnh try/catch, sẽ có trường hợp chương trình gặp ngoại lệ nhưng không được xử lý:
   
 ![](image6buoi8.png)
+
 ![](image7buoi8.png)
 ## III. Finally
 - Khối finally trong Java được dùng để thực thi câu lệnh bất kể có bắt được exception hay không.
 - Khối lệnh finally trong java được khai báo sau khối lệnh try hoặc sau khối lệnh catch.
   
 ![](image8buoi8.png)
+
 ![](image9buoi8.png)
 ## IV. Cây phân cấp Exception, phân biệt throw và throws
 
@@ -61,9 +64,11 @@ try{
   - Từ khóa throws được dùng để xử lý trong trường hợp muốn ném checked exception lại cho phương thức khác. Các phương thức gọi đến phương thức sử dụng throws bắt buộc phải xử lý bằng cách sử dụng throws tương tự, hoặc xử lý ngoại lệ bằng try/catch.
   
   ![](image11buoi8.png)
+
   Xử lí bằng try/catch:
 
   ![](image12buoi8.png)
+
   ![](image13buoi8.png)
   Xử dụng throws tương tự:
 
