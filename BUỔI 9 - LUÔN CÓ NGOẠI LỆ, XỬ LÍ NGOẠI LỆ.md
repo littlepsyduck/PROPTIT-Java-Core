@@ -70,6 +70,7 @@ try{
   ![](image12buoi8.png)
 
   ![](image13buoi8.png)
+  
   Xử dụng throws tương tự:
 
   ![](image14buoi8.png)
