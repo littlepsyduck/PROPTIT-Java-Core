@@ -61,7 +61,7 @@ try{
   
   ![](image10buoi8.png)
 - Throws
-  - Từ khóa throws được dùng để xử lý trong trường hợp muốn ném checked exception lại cho phương thức khác. Các phương thức gọi đến phương thức sử dụng throws bắt buộc phải xử lý bằng cách sử dụng throws tương tự, hoặc xử lý ngoại lệ bằng try/catch.
+  - **Từ khóa throws được dùng để xử lý trong trường hợp muốn ném checked exception lại cho phương thức khác.** Các phương thức gọi đến phương thức sử dụng throws bắt buộc phải xử lý bằng cách sử dụng throws tương tự, hoặc xử lý ngoại lệ bằng try/catch.
   
   ![](image11buoi8.png)
 
