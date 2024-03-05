@@ -173,8 +173,6 @@ public void showUser(User user){
         System.out.println("Age: " + user.getAge());
     }
     
-
-    
     public void updateInfo(User user){
         showUser(user);
         // update infomation
@@ -206,7 +204,7 @@ public void showUser(User user){
 - Controller:
   - Controller là các thành phần xử lý tương tác của người dùng để làm việc với Model (cập nhật logic dữ liệu) hoặc/ và với View (cập nhật hiển thị giao diện người dùng). Trong ứng dụng MVC, Controller xử lý các giá trị chuỗi truy vấn và chuyển các giá trị này cho Model, từ đó Model sẽ truy vấn cơ sở dữ liệu bằng cách sử dụng các giá trị đó. View hiển thị thông tin do Controller xử lý và phản hồi đầu vào từ tương tác của người dùng.
 
-### 1. Model 
+#### 1. Model 
 
 ```java
 package BookStore;
@@ -236,7 +234,7 @@ public class Book {
 }
 ```
 
-### 2. View
+#### 2. View
 
 ```java
 package BookStore;
@@ -263,7 +261,7 @@ public class BookView {
 
 ```
 
-### 3. Controller
+#### 3. Controller
 
 ```java
 package BookStore;
