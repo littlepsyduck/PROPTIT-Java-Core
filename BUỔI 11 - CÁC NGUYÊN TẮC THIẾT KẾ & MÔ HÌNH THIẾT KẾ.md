@@ -283,7 +283,7 @@ public class BookController {
 
 ```
 
-#### Bước 4: Chạy hàm main() 
+#### 4. Main
 
 ```java
 public class Main {
