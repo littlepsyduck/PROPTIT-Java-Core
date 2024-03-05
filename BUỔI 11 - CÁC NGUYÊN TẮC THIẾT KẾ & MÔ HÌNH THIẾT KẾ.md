@@ -131,7 +131,7 @@ class ElectricCar extends Car {
 ```
 
 - Giả sử có lớp cha Car và 2 lớp con SpaceCar & ElectricCar. ElectricCar không có động cơ để khởi động, vì vậy phải ghi đè phương thức `startEngine()`. 
-- Tuy nhiên, việc này không vi phạm nguyên tắc Liskov Substitution vì ta vẫn có thể thay thế một đối tượng ElectricCar vào bất kỳ nơi nào mà sử dụng đối tượng Car mà không cần thay đổi mã nguồn hiện có.
+- Việc này vi phạm nguyên tắc Liskov Substitution vì ta không thể thay thế một đối tượng ElectricCar vào bất kỳ nơi nào sử dụng đối tượng Car mà không cần thay đổi mã nguồn hiện có.
 
 ## II. KISS, DRY, YAGNI
 ### 1. KISS (Keep It Simple, Stupid!)
