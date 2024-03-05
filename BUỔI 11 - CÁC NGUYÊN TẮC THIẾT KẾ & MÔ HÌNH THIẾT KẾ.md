@@ -20,7 +20,7 @@ Mô hình MVC
   
 ![](https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/inline-image/insights/blog/agile-engineering-practices/blg_inline_solid_principles.png)
 
-### Single Responsibility (SRP): Nguyên tắc Đơn nhiệm
+### 1. Single Responsibility (SRP): Nguyên tắc Đơn nhiệm
  
 > *"Each class should be responsible for a single part or functionality of the system."*
 
@@ -74,7 +74,7 @@ public class BookPrinter {
 }
 ```
 
-### Open/Closed (OCP): Nguyên tắc Mở/Đóng.
+### 2. Open/Closed (OCP): Nguyên tắc Mở/Đóng.
 > "Software components should be open for extension, but not for modification."
 
 ***Có thể thoải mái mở rộng 1 class, nhưng không được sửa đổi bên trong class đó.***
@@ -104,7 +104,7 @@ public class GuiterPurchaseDate extends Guitar {
 }
 ```
 
-### Liskov Substitution (LSP): Nguyên tắc Thay thế Liskov
+### 3. Liskov Substitution (LSP): Nguyên tắc Thay thế Liskov
 > "Objects of a superclass should be replaceable with objects of its subclasses without breaking the system."
 
 ***Các đối tượng (instance) kiểu class con có thể thay thế các đối tượng kiểu class cha mà không gây ra lỗi.***
@@ -189,6 +189,8 @@ public void showUser(User user){
 
 - Tránh tối ưu hóa sớm, thiết kế quá phức tạp và thêm các tính năng không cần thiết. 
 - Mất thời gian, sự tập trung và công sức. 
+
+**YAGNI** -> **KISS** -> **DRY** 
 
 ## III. Mô hình MVC (Model – View – Controller)
 > Cấu trúc Model-View-Controller (MVC) là một mẫu kiến trúc/mẫu thiết kế (design pattern) tách ứng dụng thành ba thành phần logic chính: Model, View và Controller. Mỗi thành phần kiến trúc được xây dựng để xử lý các khía cạnh phát triển cụ thể của một ứng dụng.
